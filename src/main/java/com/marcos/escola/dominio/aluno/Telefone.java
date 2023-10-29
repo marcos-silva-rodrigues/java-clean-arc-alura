@@ -1,10 +1,10 @@
-package com.marcos.escola;
+package com.marcos.escola.dominio.aluno;
 
 public class Telefone {
     private String ddd;
     private String numero;
 
-    Telefone(String ddd, String numero) {
+    public Telefone(String ddd, String numero) {
         if (!isValid(ddd, numero)) throw new IllegalArgumentException("Telefone");
         this.ddd = ddd;
         this.numero = numero;

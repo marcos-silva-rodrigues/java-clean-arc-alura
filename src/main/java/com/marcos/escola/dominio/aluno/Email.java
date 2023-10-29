@@ -1,4 +1,4 @@
-package com.marcos.escola;
+package com.marcos.escola.dominio.aluno;
 
 public class Email  {
     private final String EMAIL_REGEX = "^[a-zA-Z0-9._]+@[a-zA-Z0-9._]+\\.[a-zA-Z]{2,}$";

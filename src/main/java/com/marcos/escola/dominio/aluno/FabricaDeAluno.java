@@ -1,4 +1,4 @@
-package com.marcos.escola;
+package com.marcos.escola.dominio.aluno;
 
 public class FabricaDeAluno {
 

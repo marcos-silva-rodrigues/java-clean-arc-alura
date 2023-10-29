@@ -1,4 +1,6 @@
-package com.marcos.escola;
+package com.marcos.escola.dominio.indicacao;
+
+import com.marcos.escola.dominio.aluno.Aluno;
 
 import java.time.LocalDateTime;
 

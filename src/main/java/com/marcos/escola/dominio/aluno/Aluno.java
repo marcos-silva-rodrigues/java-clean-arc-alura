@@ -1,6 +1,7 @@
-package com.marcos.escola;
+package com.marcos.escola.dominio.aluno;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Aluno {
@@ -26,5 +27,21 @@ public class Aluno {
 
     public void adicionarTelefone(Telefone telefone) {
         telefones.add(telefone);
+    }
+
+    public String getCpf() {
+        return cpf.getNumero();
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email.getEndereco();
+    }
+
+    public List<Telefone> getTelefones() {
+        return Collections.unmodifiableList(this.telefones);
     }
 }

@@ -1,4 +1,4 @@
-package com.marcos.escola;
+package com.marcos.escola.dominio.aluno;
 
 public class CPF {
     private final String CPF_REGEX = "^[0-9]{3}\\.[0-9.]{3}\\.[0-9]{3}-[0-9]{2}$";

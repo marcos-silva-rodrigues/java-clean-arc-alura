@@ -1,5 +1,6 @@
-package com.marcos.escola;
+package com.marcos.escola.aluno;
 
+import com.marcos.escola.dominio.aluno.CPF;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
